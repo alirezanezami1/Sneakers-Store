@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden !important;
+}
+
+.buttonsShow button {
+    background-color: rgba(140, 197, 59, 0.9);
+}
+
+.buttonsShow button:hover {
+    background-color: rgba(112, 158, 47, 0.9);
+}
