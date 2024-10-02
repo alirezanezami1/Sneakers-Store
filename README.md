@@ -39,6 +39,7 @@ As you can see in the picture, after the user clicks on the purchase button, it 
 </h3>
 
 <div>
-  <img src="">
+  <img src="public/Screenshot 2024-10-02 101016.png">
+  <img src="public/Screenshot 2024-10-02 102750.png">
 </div>
 
