@@ -11,9 +11,11 @@ npm install
 ```sh
 npm run dev
 ```
+<br>
 
-#### Ready!🫴🏻
+>  Ready!🫴🏻
 
+<br>
 
 **⚙️ Tech stack:**
 
@@ -69,6 +71,11 @@ For each successful purchase, an instance is added to the "orders" array; Like t
 <br>
 <br>
 
-<h4>
-  Finally, I need to add that in order to make the project not too simple and dry, I should use some ready-made components such as tailwind component and mdb-vue-ui-kit. 
-</h4>
+> [!NOTE]\
+> Finally, I need to add that in order to make the project not too simple and dry, I should use some ready-made components such as tailwind component and mdb-vue-ui-kit.
+> 
+
+<br>
+<br>
+
+ Thanks! :heart:
