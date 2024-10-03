@@ -1,11 +1,7 @@
 <script setup>
 import {inject} from 'vue';
 import CardItem from './CardItem.vue';
-
 const {cart , removeFromCart} = inject('cart')
-
-
-
 </script>
 
 <template>
