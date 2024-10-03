@@ -24,13 +24,12 @@ npm run dev
 - TailwindCSS
 - Axios
 - @formkit/auto-animate
-- Composition API / Options API
+- Composition API
 - ESLint
 - Prettier
 - heroicons/vue
 - vue-toastification
 - vue-spinner
-- vue-router
 - mdb-vue-ui-kit
 
 ----
