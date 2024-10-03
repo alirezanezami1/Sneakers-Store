@@ -26,7 +26,6 @@ npm run dev
 - @formkit/auto-animate
 - Composition API
 - ESLint
-- Prettier
 - heroicons/vue
 - vue-toastification
 - vue-spinner
