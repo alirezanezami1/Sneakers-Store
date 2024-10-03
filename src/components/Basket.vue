@@ -6,24 +6,20 @@ import BasketHeader from './BasketHeader.vue';
 import CardItemList from './CardItemList.vue';
 import infoBlock from './infoBlock.vue';
 
-
 const isCreatingOrder = ref(false)
 const orderId = ref(null)
 
 const toast = useToast()
-
 
 const props = defineProps({
   totalPrice : Number,
   vat : Number,
 })
 
-
 const {
   cart ,
   closeBasket
 } = inject('cart')
-
 
 const createOrder = async () => {
   try {
@@ -52,39 +48,18 @@ const btnDisabled = computed(() => isCreatingOrder.value || cartEmpty.value)
 
 </script>
 
-
 <template>
       <div class="fixed top-0 left-0 h-full w-full bg-black z-20 opacity-70"></div>
-    <div class="bg-white w-96 h-full fixed right-0 top-0 z-40 p-8">
-
-
-      
+    <div class="bg-white w-96 h-full fixed right-0 top-0 z-40 p-8">      
         <BasketHeader></BasketHeader>
-
-
-       
-
-
         <div v-if="!totalPrice || orderId" class="flex h-full items-center">
           <infoBlock v-if="!totalPrice && !orderId"  title="The shopping cart is empty" description="Return to the store and find your favorite shoe" imageUrl="../../public/package-icon.png"></infoBlock>
-
-         
           <infoBlock v-if="orderId" title="Your purchase has been made" :description="`Thank you for buying from us and trusting us.
            Your purchase ID : ${orderId}`" imageUrl="../../public/order-success-icon.png"></infoBlock>
-          
-
         </div>
-
-
-       
-
-
-
         <div v-else>
              <CardItemList  ></CardItemList>
-
             <div>
-            
               <div  class="flex flex-col gap-4 mt-7">
                 <div class="flex gap-2">
                   <span>Total:</span>
@@ -108,8 +83,5 @@ const btnDisabled = computed(() => isCreatingOrder.value || cartEmpty.value)
               </div>
             </div>
         </div>
-
-
-
   </div>
 </template>
